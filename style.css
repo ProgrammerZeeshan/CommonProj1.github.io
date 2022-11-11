@@ -13,7 +13,7 @@
 .Upperimage_box{
     height: 400px;
     margin-top: 30px;
-    background-image: url(Logo/HeaderImage.jpg);
+    background-image: url(HeaderImage.jpg);
     background-attachment:fixed;
     background-position: center;
 }
