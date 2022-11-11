@@ -1,0 +1,179 @@
+/* Navbar */
+.li_edit{
+	font-size:16px !important;
+	margin-left:2px;
+}
+.li_edit:hover{
+    border-bottom: 2px dotted grey;
+    transition: 0.2s ease-out;
+}
+/* Header image box*/
+
+
+.Upperimage_box{
+    height: 400px;
+    margin-top: 30px;
+    background-image: url(Logo/HeaderImage.jpg);
+    background-attachment:fixed;
+    background-position: center;
+}
+.cover{
+     height: 100%;
+    background-color: #ffffffba; 
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+}
+
+/* Header box text */
+
+
+.Upperimage_boxtextMain{
+
+    color: #28282B;
+    font-size: 85px;
+    margin-top: 45px;
+    font-weight: bold;
+    font-family: 'Libre Baskerville', serif;
+    letter-spacing: 3px;
+    text-align: center;
+}
+.Upperimage_boxtext{
+    color: #28282B;
+    font-family: 'Libre Baskerville', serif;
+   font-size: 75px;
+    margin-top: -20px;
+    font-weight: 150;
+    text-align: center;
+}
+/* Mini Header */
+
+
+.mini_head{
+    height:50px;
+    min-width:300px;
+    margin:auto;
+}
+.mini_header{
+      text-decoration: none;
+      font-size: 18px;
+      margin-left: 20px;
+      letter-spacing: 2px;
+      color:#28282B;
+      margin-top: 20px!important;
+}
+.mini_header:hover{
+    color:#36d8a9;
+}
+
+/* Images Box & images settings*/
+
+
+.images_box{
+    height: 300px;
+    margin-top:20px;
+    position: relative;
+}
+.Portfolioimages_box{
+    height: 550px;
+    margin-top:20px;
+    position: relative;
+}
+.Portfolioimage_set{
+    height: 100%;
+    width: 100%;
+}
+.fontset{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+.image_set{
+    height: 100%;
+    width: 100%;
+}
+
+/* Image on Hover Effects */
+
+.hovercap {
+    box-sizing: border-box;
+    width: 97%;
+    height: 80px;
+	display:flex;
+	align-items:center;
+
+    margin:10px;
+	border-radius:30px 0px 0 30px;
+    padding: 20px;
+    position: absolute;
+    bottom: 0; left: 0;
+    font-weight: bold;
+    background-color:white;
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 2px;
+    font-family: 'Poppins', sans-serif;
+    visibility: none; 
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  
+  .images_box:hover .hovercap {
+    visibility: visible; 
+    opacity: 1;
+    transition: transform 1s ease;
+  }
+  .Portfolioimages_box:hover .hovercap {
+    visibility: visible; 
+    opacity: 1;
+  }
+
+  /* Employee and Orgeanization Detail */
+
+.Project_Details{
+    border: 1px solid #28282B;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: none;
+}
+.Detailstyle{
+    color:black;
+    font-weight: 600 !important;
+}
+
+/* Footer */
+
+.footer_img{
+    height: 100%;
+    width: 100%;
+    margin-top: 10px;
+}
+
+/* Responsiveness of some classes */
+
+@media screen and (max-width:600px) {
+   .Upperimage_boxtextMain{
+        font-size: 50px;
+        font-weight: bold;
+    }
+    .mini_head{
+        max-width:200px;
+        overflow-wrap:break-word;
+        border: none;
+    }
+    .Upperimage_boxtext{
+        font-size: 45px;  
+    }
+    .li_edit{
+        text-align: center;
+        color:#28282B;
+    }
+    .li_edit:hover{
+         border-bottom: 0px;
+    }
+}
